@@ -31,7 +31,7 @@ RUN \
 	/tmp/s6-overlay.tar.gz -C / && \
  cd tmp && \
  wget -q https://downloads.rclone.org/rclone-${RCLONE_VERSION}-linux-${PLATFORM_ARCH}.zip && \
- unzip /tmp/rclone-v${RCLONE_VERSION}-linux-${PLATFORM_ARCH}.zip && \
+ unzip /tmp/rclone-${RCLONE_VERSION}-linux-${PLATFORM_ARCH}.zip && \
  mv /tmp/rclone-*-linux-${PLATFORM_ARCH}/rclone /usr/bin && \
  apk add --no-cache --repository http://nl.alpinelinux.org/alpine/edge/community \
 	shadow && \
