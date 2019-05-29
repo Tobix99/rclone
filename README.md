@@ -8,7 +8,6 @@
 [![Docker Stars](https://img.shields.io/docker/stars/tobix99/rclone.svg)][dockerstore]
 [![Docker Build Status](https://img.shields.io/docker/build/tobix99/rclone.svg)][dockerstore]
 [![Docker Build](https://img.shields.io/docker/automated/tobix99/rclone.svg)][dockerstore]
-[![Docker Automated build](https://img.shields.io/docker/automated/tobix99/rclone.svg)][
 
 Docker for [Rclone][appurl] - a command line program to sync files and directories to and from various cloud services.
 
