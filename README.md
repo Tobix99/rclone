@@ -1,14 +1,13 @@
 [appurl]: https://rclone.org/
-[microbadger]: https://microbadger.com/images/tynor88/rclone
-[dockerstore]: https://store.docker.com/community/images/tynor88/rclone
-[docker-rclone-mount]: https://github.com/tynor88/docker-rclone-mount
+[microbadger]: https://microbadger.com/images/tobix99/rclone
+[dockerstore]: https://store.docker.com/community/images/tobix99/rclone
 
 # docker-rclone
-[![Docker Layers](https://images.microbadger.com/badges/image/tynor88/rclone.svg)][microbadger]
-[![Docker Pulls](https://img.shields.io/docker/pulls/tynor88/rclone.svg)][dockerstore]
-[![Docker Stars](https://img.shields.io/docker/stars/tynor88/rclone.svg)][dockerstore]
-[![Docker Build Status](https://img.shields.io/docker/build/tynor88/rclone.svg)][dockerstore]
-[![Docker Build](https://img.shields.io/docker/automated/tynor88/rclone.svg)][dockerstore]
+[![Docker Layers](https://images.microbadger.com/badges/image/tobix99/rclone.svg)][microbadger]
+[![Docker Pulls](https://img.shields.io/docker/pulls/tobix99/rclone.svg)][dockerstore]
+[![Docker Stars](https://img.shields.io/docker/stars/tobix99/rclone.svg)][dockerstore]
+[![Docker Build Status](https://img.shields.io/docker/build/tobix99/rclone.svg)][dockerstore]
+[![Docker Build](https://img.shields.io/docker/automated/tobix99/rclone.svg)][dockerstore]
 
 Docker for [Rclone][appurl] - a command line program to sync files and directories to and from various cloud services.
 
@@ -45,7 +44,7 @@ docker create \
   -e SYNC_DESTINATION=<sync destination from .rclone.conf> \
   -v </path for rclone.conf>:/config \
   -v </path for backup>:/data \
-  tynor88/rclone
+  tobix99/rclone
 ```
 
 **Parameters**
@@ -67,6 +66,8 @@ docker create \
 
 ## Versions
 
++ **2019/05/29**
+  * Adapted Tynors Images, added new Download Path for Rclone
 + **2017/10/15:**
   * Update to latest Rclone (v1.38)
 + **2017/01/25:**
